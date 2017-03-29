@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		718957BA1E8C524E001FF6F6 /* bullet.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957A41E8C524E001FF6F6 /* bullet.h */; };
+		718957BB1E8C524E001FF6F6 /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957A51E8C524E001FF6F6 /* bullet.cpp */; };
+		718957BC1E8C524E001FF6F6 /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957A61E8C524E001FF6F6 /* driver.cpp */; };
+		718957BD1E8C524E001FF6F6 /* flying.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957A71E8C524E001FF6F6 /* flying.cpp */; };
+		718957BE1E8C524E001FF6F6 /* flying.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957A81E8C524E001FF6F6 /* flying.h */; };
+		718957BF1E8C524E001FF6F6 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957A91E8C524E001FF6F6 /* game.cpp */; };
+		718957C01E8C524E001FF6F6 /* game.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957AA1E8C524E001FF6F6 /* game.h */; };
+		718957C11E8C524E001FF6F6 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 718957AB1E8C524E001FF6F6 /* makefile */; };
+		718957C21E8C524E001FF6F6 /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957AC1E8C524E001FF6F6 /* menu.cpp */; };
+		718957C31E8C524E001FF6F6 /* menu.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957AD1E8C524E001FF6F6 /* menu.h */; };
+		718957C41E8C524E001FF6F6 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957AE1E8C524E001FF6F6 /* point.cpp */; };
+		718957C51E8C524E001FF6F6 /* point.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957AF1E8C524E001FF6F6 /* point.h */; };
+		718957C61E8C524E001FF6F6 /* rocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957B01E8C524E001FF6F6 /* rocks.cpp */; };
+		718957C71E8C524E001FF6F6 /* rocks.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957B11E8C524E001FF6F6 /* rocks.h */; };
+		718957C81E8C524E001FF6F6 /* ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957B21E8C524E001FF6F6 /* ship.cpp */; };
+		718957C91E8C524E001FF6F6 /* ship.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957B31E8C524E001FF6F6 /* ship.h */; };
+		718957CA1E8C524E001FF6F6 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957B41E8C524E001FF6F6 /* uiDraw.cpp */; };
+		718957CB1E8C524E001FF6F6 /* uiDraw.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957B51E8C524E001FF6F6 /* uiDraw.h */; };
+		718957CC1E8C524E001FF6F6 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957B61E8C524E001FF6F6 /* uiInteract.cpp */; };
+		718957CD1E8C524E001FF6F6 /* uiInteract.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957B71E8C524E001FF6F6 /* uiInteract.h */; };
+		718957CE1E8C524E001FF6F6 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718957B81E8C524E001FF6F6 /* velocity.cpp */; };
+		718957CF1E8C524E001FF6F6 /* velocity.h in Sources */ = {isa = PBXBuildFile; fileRef = 718957B91E8C524E001FF6F6 /* velocity.h */; };
+		71CC2CB71D38187C00B9B1A3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CC2CB61D38187C00B9B1A3 /* GLUT.framework */; };
+		71CC2CB91D38188500B9B1A3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CC2CB81D38188500B9B1A3 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71CC2C841D38185700B9B1A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		718957A41E8C524E001FF6F6 /* bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bullet.h; path = AsteroidsFinal/bullet.h; sourceTree = "<group>"; };
+		718957A51E8C524E001FF6F6 /* bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bullet.cpp; path = AsteroidsFinal/bullet.cpp; sourceTree = "<group>"; };
+		718957A61E8C524E001FF6F6 /* driver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = driver.cpp; path = AsteroidsFinal/driver.cpp; sourceTree = "<group>"; };
+		718957A71E8C524E001FF6F6 /* flying.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = flying.cpp; path = AsteroidsFinal/flying.cpp; sourceTree = "<group>"; };
+		718957A81E8C524E001FF6F6 /* flying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = flying.h; path = AsteroidsFinal/flying.h; sourceTree = "<group>"; };
+		718957A91E8C524E001FF6F6 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = game.cpp; path = AsteroidsFinal/game.cpp; sourceTree = "<group>"; };
+		718957AA1E8C524E001FF6F6 /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = game.h; path = AsteroidsFinal/game.h; sourceTree = "<group>"; };
+		718957AB1E8C524E001FF6F6 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = makefile; path = AsteroidsFinal/makefile; sourceTree = "<group>"; };
+		718957AC1E8C524E001FF6F6 /* menu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menu.cpp; path = AsteroidsFinal/menu.cpp; sourceTree = "<group>"; };
+		718957AD1E8C524E001FF6F6 /* menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = menu.h; path = AsteroidsFinal/menu.h; sourceTree = "<group>"; };
+		718957AE1E8C524E001FF6F6 /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = point.cpp; path = AsteroidsFinal/point.cpp; sourceTree = "<group>"; };
+		718957AF1E8C524E001FF6F6 /* point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = point.h; path = AsteroidsFinal/point.h; sourceTree = "<group>"; };
+		718957B01E8C524E001FF6F6 /* rocks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rocks.cpp; path = AsteroidsFinal/rocks.cpp; sourceTree = "<group>"; };
+		718957B11E8C524E001FF6F6 /* rocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rocks.h; path = AsteroidsFinal/rocks.h; sourceTree = "<group>"; };
+		718957B21E8C524E001FF6F6 /* ship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ship.cpp; path = AsteroidsFinal/ship.cpp; sourceTree = "<group>"; };
+		718957B31E8C524E001FF6F6 /* ship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ship.h; path = AsteroidsFinal/ship.h; sourceTree = "<group>"; };
+		718957B41E8C524E001FF6F6 /* uiDraw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = uiDraw.cpp; path = AsteroidsFinal/uiDraw.cpp; sourceTree = "<group>"; };
+		718957B51E8C524E001FF6F6 /* uiDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uiDraw.h; path = AsteroidsFinal/uiDraw.h; sourceTree = "<group>"; };
+		718957B61E8C524E001FF6F6 /* uiInteract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = uiInteract.cpp; path = AsteroidsFinal/uiInteract.cpp; sourceTree = "<group>"; };
+		718957B71E8C524E001FF6F6 /* uiInteract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uiInteract.h; path = AsteroidsFinal/uiInteract.h; sourceTree = "<group>"; };
+		718957B81E8C524E001FF6F6 /* velocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = velocity.cpp; path = AsteroidsFinal/velocity.cpp; sourceTree = "<group>"; };
+		718957B91E8C524E001FF6F6 /* velocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = velocity.h; path = AsteroidsFinal/velocity.h; sourceTree = "<group>"; };
+		71CC2C861D38185700B9B1A3 /* AsteroidsFinal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AsteroidsFinal; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CC2CB61D38187C00B9B1A3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		71CC2CB81D38188500B9B1A3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CC2C831D38185700B9B1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CC2CB91D38188500B9B1A3 /* OpenGL.framework in Frameworks */,
+				71CC2CB71D38187C00B9B1A3 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71CC2C7D1D38185700B9B1A3 = {
+			isa = PBXGroup;
+			children = (
+				718957A41E8C524E001FF6F6 /* bullet.h */,
+				718957A51E8C524E001FF6F6 /* bullet.cpp */,
+				718957A61E8C524E001FF6F6 /* driver.cpp */,
+				718957A71E8C524E001FF6F6 /* flying.cpp */,
+				718957A81E8C524E001FF6F6 /* flying.h */,
+				718957A91E8C524E001FF6F6 /* game.cpp */,
+				718957AA1E8C524E001FF6F6 /* game.h */,
+				718957AB1E8C524E001FF6F6 /* makefile */,
+				718957AC1E8C524E001FF6F6 /* menu.cpp */,
+				718957AD1E8C524E001FF6F6 /* menu.h */,
+				718957AE1E8C524E001FF6F6 /* point.cpp */,
+				718957AF1E8C524E001FF6F6 /* point.h */,
+				718957B01E8C524E001FF6F6 /* rocks.cpp */,
+				718957B11E8C524E001FF6F6 /* rocks.h */,
+				718957B21E8C524E001FF6F6 /* ship.cpp */,
+				718957B31E8C524E001FF6F6 /* ship.h */,
+				718957B41E8C524E001FF6F6 /* uiDraw.cpp */,
+				718957B51E8C524E001FF6F6 /* uiDraw.h */,
+				718957B61E8C524E001FF6F6 /* uiInteract.cpp */,
+				718957B71E8C524E001FF6F6 /* uiInteract.h */,
+				718957B81E8C524E001FF6F6 /* velocity.cpp */,
+				718957B91E8C524E001FF6F6 /* velocity.h */,
+				71CC2CB81D38188500B9B1A3 /* OpenGL.framework */,
+				71CC2CB61D38187C00B9B1A3 /* GLUT.framework */,
+				71CC2C881D38185700B9B1A3 /* AsteroidsFinal */,
+				71CC2C871D38185700B9B1A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71CC2C871D38185700B9B1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CC2C861D38185700B9B1A3 /* AsteroidsFinal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CC2C881D38185700B9B1A3 /* AsteroidsFinal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AsteroidsFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71CC2C851D38185700B9B1A3 /* AsteroidsFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CC2C8D1D38185700B9B1A3 /* Build configuration list for PBXNativeTarget "AsteroidsFinal" */;
+			buildPhases = (
+				71CC2C821D38185700B9B1A3 /* Sources */,
+				71CC2C831D38185700B9B1A3 /* Frameworks */,
+				71CC2C841D38185700B9B1A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsteroidsFinal;
+			productName = AsteroidsFinal;
+			productReference = 71CC2C861D38185700B9B1A3 /* AsteroidsFinal */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71CC2C7E1D38185700B9B1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ian Petty";
+				TargetAttributes = {
+					71CC2C851D38185700B9B1A3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 71CC2C811D38185700B9B1A3 /* Build configuration list for PBXProject "AsteroidsFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71CC2C7D1D38185700B9B1A3;
+			productRefGroup = 71CC2C871D38185700B9B1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71CC2C851D38185700B9B1A3 /* AsteroidsFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71CC2C821D38185700B9B1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718957BA1E8C524E001FF6F6 /* bullet.h in Sources */,
+				718957BB1E8C524E001FF6F6 /* bullet.cpp in Sources */,
+				718957BC1E8C524E001FF6F6 /* driver.cpp in Sources */,
+				718957BD1E8C524E001FF6F6 /* flying.cpp in Sources */,
+				718957BE1E8C524E001FF6F6 /* flying.h in Sources */,
+				718957BF1E8C524E001FF6F6 /* game.cpp in Sources */,
+				718957C01E8C524E001FF6F6 /* game.h in Sources */,
+				718957C11E8C524E001FF6F6 /* makefile in Sources */,
+				718957C21E8C524E001FF6F6 /* menu.cpp in Sources */,
+				718957C31E8C524E001FF6F6 /* menu.h in Sources */,
+				718957C41E8C524E001FF6F6 /* point.cpp in Sources */,
+				718957C51E8C524E001FF6F6 /* point.h in Sources */,
+				718957C61E8C524E001FF6F6 /* rocks.cpp in Sources */,
+				718957C71E8C524E001FF6F6 /* rocks.h in Sources */,
+				718957C81E8C524E001FF6F6 /* ship.cpp in Sources */,
+				718957C91E8C524E001FF6F6 /* ship.h in Sources */,
+				718957CA1E8C524E001FF6F6 /* uiDraw.cpp in Sources */,
+				718957CB1E8C524E001FF6F6 /* uiDraw.h in Sources */,
+				718957CC1E8C524E001FF6F6 /* uiInteract.cpp in Sources */,
+				718957CD1E8C524E001FF6F6 /* uiInteract.h in Sources */,
+				718957CE1E8C524E001FF6F6 /* velocity.cpp in Sources */,
+				718957CF1E8C524E001FF6F6 /* velocity.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71CC2C8B1D38185700B9B1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		71CC2C8C1D38185700B9B1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		71CC2C8E1D38185700B9B1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71CC2C8F1D38185700B9B1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71CC2C811D38185700B9B1A3 /* Build configuration list for PBXProject "AsteroidsFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CC2C8B1D38185700B9B1A3 /* Debug */,
+				71CC2C8C1D38185700B9B1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CC2C8D1D38185700B9B1A3 /* Build configuration list for PBXNativeTarget "AsteroidsFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CC2C8E1D38185700B9B1A3 /* Debug */,
+				71CC2C8F1D38185700B9B1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71CC2C7E1D38185700B9B1A3 /* Project object */;
+}
